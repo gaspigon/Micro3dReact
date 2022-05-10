@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Micro3D Productos & Diseños
         </a>
       </header>
     </div>
