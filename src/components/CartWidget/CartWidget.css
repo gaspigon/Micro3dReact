@@ -1,0 +1,17 @@
+.cart-img{
+    width: 45px;
+    object-fit: cover;
+}
+
+.cart-p{
+   
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: white;
+    
+}
+
+.cart-box{
+    width: 70px;
+}
