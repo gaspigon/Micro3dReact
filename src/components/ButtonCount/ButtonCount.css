@@ -1,0 +1,9 @@
+.btn-card{
+    height: 25px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+}
+
