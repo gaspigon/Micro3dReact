@@ -1,0 +1,23 @@
+.box-title{
+    height: 600px;
+    background-image: url('../../../public/images/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.title{
+    color: white;
+    font-size: 8rem;
+    font-family:"Roboto", sans-serif;
+    font-weight: 100;
+    white-space: nowrap;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.parraf{
+    color: white;
+    font-size: 2rem;
+    margin-top: 0;
+}

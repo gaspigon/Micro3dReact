@@ -9,7 +9,7 @@ const Navbar = () => {
             
             <div className= "box-nav" >
                 <img className="img-nav" src={process.env.PUBLIC_URL + '/logo3.png'} alt="logo"/>
-                <h1 style={{color:'white', fontSize:30}}> Micro3D Productos & Diseños </h1> 
+               
                 <ul className="box-links">
                     <li className="links">
                         <button className="btn">Inicio</button>
