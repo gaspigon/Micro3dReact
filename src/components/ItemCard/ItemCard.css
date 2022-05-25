@@ -1,6 +1,7 @@
 .box-card{
+
     width: 20%;
-    height: 300px;
+    height: 350px;
     border: 1px solid black;
     margin: 2%;
 }
@@ -8,3 +9,9 @@
 .img-card{
     width: 100%
 }
+
+.list{
+    list-style: none;
+    
+}
+

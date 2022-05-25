@@ -1,14 +1,17 @@
 import '../ItemCard/ItemCard.css'
 import Itemcount from '../ItemCount/ItemCount'
 
-const ItemCard = () => {
+const ItemCard = ({id, name, price,img,stock}) => {
+    
     return(
-        <div className='box-card'>
-            <img className='img-card' src='./images/anycubic2.png' alt=''  />
-            <p>Anycubic Photon</p>
-            <Itemcount />
+       <div className='box-card'>
+                    <img className='img-card' alt='imagen' src={img}/>
+                     <p>{name}</p>
+                     <p>{price}</p>
+                     <Itemcount stock={stock}/>
         </div>
-    )
+    
+)
 }
 
 export default ItemCard
