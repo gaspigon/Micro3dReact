@@ -8,6 +8,7 @@ const ItemCard = ({id, name, price,img,stock}) => {
                     <img className='img-card' alt='imagen' src={img}/>
                      <p>{name}</p>
                      <p>{price}</p>
+                     <p>Stock Disponible: {stock}</p>
                      <Itemcount stock={stock}/>
         </div>
     
