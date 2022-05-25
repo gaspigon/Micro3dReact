@@ -1,15 +1,18 @@
 import {useState} from 'react'
 import ButtonCount from '../ButtonCount/ButtonCount'
 
-const Itemcount = () => {
-    const [count, setCount] = useState(0)
+
+
+
+const Itemcount = ({stock}) => {
+    const [count, setCount] = useState(1)
 
     const decrement = () => {
-        setCount((count) => count -1)
+        if (count > 1) setCount((count) => count -1)
     }
 
     const increment = () => {
-        setCount(count + 1)
+        if (count < stock)setCount(count + 1)
     }
 
 
