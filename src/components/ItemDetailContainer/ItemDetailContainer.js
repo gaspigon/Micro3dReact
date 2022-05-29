@@ -15,7 +15,7 @@ const ItemDetailContainer = () => {
 
     return(
         <div>
-            <ItemDetail key={product.id} {...product} />
+            <ItemDetail  {...product} />
         </div>
     )
 }
