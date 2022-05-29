@@ -1,5 +1,5 @@
 import '../ItemCard/ItemCard.css'
-import Itemcount from '../ItemCount/ItemCount'
+
 
 const ItemCard = ({id, name, price,img,stock}) => {
     
@@ -7,9 +7,10 @@ const ItemCard = ({id, name, price,img,stock}) => {
        <div className='box-card'>
                     <img className='img-card' alt='imagen' src={img}/>
                      <p>{name}</p>
-                     <p>{price}</p>
-                     <p>Stock Disponible:  {stock}</p>
-                     <Itemcount stock={stock}/>
+                     <button className='btn-detalle'>Ver Detalle</button>
+                     {/* <p>Stock Disponible:  {stock}</p> */}
+                     {/* <Itemcount stock={stock}/> */}
+                     {/* <button className='btn-cart'>Agregar a carrito</button> */}
         </div>
     
 )

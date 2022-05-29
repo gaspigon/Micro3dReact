@@ -6,8 +6,9 @@
 .cart-p{
    
     position: absolute;
-    top: 0;
-    right: 10px;
+    top: 8px;
+    right: 14px;
+    margin: 0;
     color: white;
     
 }
