@@ -1,13 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 .box-card{
 
     width: 20%;
-    height: 350px;
-    border: 1px solid black;
+    height: 270px;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
     margin: 2%;
+    background-color: #fff;
 }
 
 .img-card{
-    width: 100%
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    
 }
 
 .list{
@@ -17,4 +25,13 @@
 
 p{
     margin: 3%;
+    font-family: "Roboto", sans-serif;
+    color: #10182f;
+}
+
+.btn-detalle{
+    background-color: #5e76bf;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
 }

@@ -15,13 +15,13 @@ const Navbar = () => {
                         <button className="btn">Inicio</button>
                     </li>
                     <li className="links">
-                        <button className="btn">Productos</button>
+                        <button className="btn">Accesorios</button>
                     </li>
                     <li className="links">
-                        <button className="btn">Contacto</button>
+                        <button className="btn">Impresoras</button>
                     </li>
                     <li className="links">
-                        <button className="btn">Nosotros</button>
+                        <button className="btn">Robotica</button>
                     </li>
                     <li className="links"> 
                         <CartWidget />
