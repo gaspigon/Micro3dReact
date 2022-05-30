@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import ButtonCount from '../ButtonCount/ButtonCount'
+import '../ItemCount/ItemCount.css'
 
 
 
@@ -17,10 +18,17 @@ const Itemcount = ({stock}) => {
 
 
     return(
-        <div style={{display: 'flex',justifyContent:'center', height: 50}}>
-            <ButtonCount handleClick ={decrement} label='-' color='red'/>
-            <p style={{fontSize: 20, margin:10}}>{count}</p>
-            <ButtonCount handleClick={increment} label='+' color='green' />
+        <div >
+            <div style={{display:'flex',justifyContent:'center',}}>
+                <ButtonCount handleClick ={decrement} label='-' color='red'/>
+                <p className='number'>{count}</p>
+                <ButtonCount handleClick={increment} label='+' color='green' />
+            </div>
+
+        <div className='box-btn'>
+                <button className='btn-agregar'>Agregar a carrito</button>
+        </div>
+            
         </div>
     )
 }
