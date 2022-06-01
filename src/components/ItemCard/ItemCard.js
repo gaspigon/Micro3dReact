@@ -1,4 +1,5 @@
 import '../ItemCard/ItemCard.css'
+import React from 'react'
 
 
 const ItemCard = ({id, name, price,img,stock}) => {
